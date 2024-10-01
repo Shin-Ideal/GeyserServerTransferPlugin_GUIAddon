@@ -1,0 +1,16 @@
+name: GeyserServerTransferPlugin_GUIAddon
+version: '${project.version}'
+main: com.github.shin_ideal.geyserservertransferplugin_guiaddon.GeyserServerTransferPlugin_GUIAddon
+api-version: '1.13'
+depend: [ floodgate ,GeyserServerTransferPlugin ]
+
+commands:
+  betransfergui:
+    description: Open GUI, Send Other Server For BE
+    aliases: [ btransfergui , beserverredirectgui, beserverredirectgui ]
+    permission: GeyserServerTransferPlugin_GUIAddon.command.betransfergui
+
+permissions:
+  GeyserServerTransferPlugin_GUIAddon.command.betransfergui:
+    description: Open GUI, Send Other Server For BE
+    default: op
