@@ -9,4 +9,4 @@ GUIで[GeyserServerTransferPlugin](https://github.com/Shin-Ideal/GeyserServerTra
 3. 統合版ユーザーは、入力したサーバーに移動できます！
 
 ## Permission
-* `GeyserServerTransferPlugin.command.betransfergui` GUIを開くための権限です。
+* `GeyserServerTransferPlugin_guiaddon.command.betransfergui` GUIを開くための権限です。
